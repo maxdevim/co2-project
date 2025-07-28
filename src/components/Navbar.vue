@@ -63,4 +63,15 @@ function onLanguageChange(event: Event) {
 .language-select {
   max-width: 80px;
 }
+.nav-item:hover {
+  background-color: #1e7e2974;
+  border-radius: 5px;
+}
+.active {
+  background-color: #1e7e29 !important;
+  border-radius: 5px !important;
+}
+.navbar-brand {
+  background-color: transparent !important;
+}
 </style>
