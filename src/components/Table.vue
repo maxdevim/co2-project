@@ -92,10 +92,10 @@ function clearAllFilter() {
 <template>
   <div>
     <div class="d-flex gap-3 mb-2">
-      <button class="btn btn-secondary" @click="clearSort">
+      <button class="btn btn-brown" @click="clearSort">
         Sortierung zurücksetzen
       </button>
-      <button class="btn btn-secondary" @click="clearAllFilter">
+      <button class="btn btn-brown" @click="clearAllFilter">
         Filter zurücksetzen
       </button>
     </div>
@@ -191,5 +191,22 @@ function clearAllFilter() {
 
 ::v-deep(.table-hover tbody tr:hover) td {
   background-color: #13c731 !important;
+}
+
+.custom-header {
+  background-color: #4d2e00bd;
+  color: #fff;
+  padding: 1rem;
+}
+
+.btn-brown {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+}
+
+.btn-brown:hover {
+  background-color: #5c3210;
+  color: white;
 }
 </style>
