@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
+import { rtl_languages } from "@/lang/language.ts";
 
 interface Props {
   columns: string[];
@@ -91,13 +92,17 @@ function clearAllFilter() {
 
 <template>
   <div>
-    <div class="d-flex gap-3 mb-2">
+    <div
+      class="d-flex gap-3 mb-2"
+      :class="{ 'flex-row-reverse': rtl_languages.includes($i18n.locale) }"
+    >
       <button class="btn btn-brown" @click="clearSort">
-        Sortierung zurücksetzen
+        {{ $t("table.clear_sort") }}
       </button>
       <button class="btn btn-brown" @click="clearAllFilter">
-        Filter zurücksetzen
+        {{ $t("table.clear_filter") }}
       </button>
+      <h3>{{ $t("table.source") }}</h3>
     </div>
     <table class="table table-striped table-hover">
       <thead>
