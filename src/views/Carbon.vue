@@ -17,6 +17,7 @@ const data: (string | number)[][] = EmissionData.map((item) => [
 <template>
   <div class="container">
     <Table
+      class="mt-2"
       :columns="[
         'Company',
         'Country',
