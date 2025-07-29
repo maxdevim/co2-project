@@ -1,7 +1,7 @@
 export const langAr = {
   navbar: {
     home: "الصفحة الرئيسية",
-    carbon: "ثاني أكسيد الكربون",
+    carbon: "ثاني أكسيد الكربون (DE)",
     about: "من نحن",
   },
   sidebar: {
