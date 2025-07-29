@@ -99,7 +99,7 @@ function clearAllFilter() {
         Filter zurücksetzen
       </button>
     </div>
-    <table class="table">
+    <table class="table table-striped table-hover">
       <thead>
         <tr>
           <th
@@ -171,13 +171,25 @@ function clearAllFilter() {
       </thead>
       <tbody class="table-group-divider">
         <tr v-for="(row, index) in filteredRows" :key="index">
-          <th v-for="cell in row" :key="cell">
+          <td v-for="cell in row" :key="cell">
             {{ typeof cell === "number" ? formatNumber(cell) : cell }}
-          </th>
+          </td>
         </tr>
       </tbody>
     </table>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+::v-deep(.table-striped tbody tr:nth-of-type(odd)) td {
+  background-color: #2494316d !important;
+}
+
+::v-deep(.table-striped tbody tr:nth-of-type(even)) td {
+  background-color: #1d7327ab !important;
+}
+
+::v-deep(.table-hover tbody tr:hover) td {
+  background-color: #13c731 !important;
+}
+</style>
