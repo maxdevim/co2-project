@@ -6,7 +6,7 @@ export const langAr = {
   },
   sidebar: {
     corporate: "Untra",
-    contact: "Jontakt",
+    legal: "Jontakt",
     faq: "FAk",
   },
   home: {

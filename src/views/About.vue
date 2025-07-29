@@ -17,7 +17,7 @@ import { rtl_languages } from "@/lang/language.ts";
     >
       <h1>corporate</h1>
     </div>
-    <div v-else-if="$route.params.subpage === 'contact'" class="container">
+    <div v-else-if="$route.params.subpage === 'legal'" class="container">
       <h1>contact</h1>
     </div>
     <div v-else-if="$route.params.subpage === 'faq'" class="container">

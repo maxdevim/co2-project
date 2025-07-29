@@ -13,8 +13,8 @@
         >
       </li>
       <li class="nav-item">
-        <RouterLink to="/about/contact" class="nav-link text-white">
-          {{ $t("sidebar.contact") }}</RouterLink
+        <RouterLink to="/about/legal" class="nav-link text-white">
+          {{ $t("sidebar.legal") }}</RouterLink
         >
       </li>
       <li class="nav-item">

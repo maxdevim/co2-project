@@ -6,7 +6,7 @@ export const langDe = {
   },
   sidebar: {
     corporate: "Unternehmen",
-    contact: "Kontakt",
+    legal: "Rechtliche Hinweise",
     faq: "FAQ",
   },
   home: {
