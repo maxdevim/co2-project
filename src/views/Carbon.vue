@@ -15,7 +15,7 @@ const data: (string | number)[][] = EmissionData.map((item) => [
 </script>
 
 <template>
-  <div class="container">
+  <div class="container-md">
     <Table
       class="mt-2"
       :columns="[
