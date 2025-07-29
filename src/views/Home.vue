@@ -39,7 +39,7 @@ const pageWrapperStyle = {
   max-width: 800px;
   margin: 50px auto;
   background-color: rgb(33, 37, 41);
-  color: white;
+  color: rgba(255, 255, 255, 0.849);
   padding: 2rem;
   box-sizing: border-box;
   border-radius: 8px;

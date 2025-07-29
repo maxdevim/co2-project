@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import Corporate from "@/components/about/Corporate.vue";
+import FAQ from "@/components/about/FAQ.vue";
+import Legal from "@/components/about/Legal.vue";
 import Sidebar from "@/components/Sidebar.vue";
 import { rtl_languages } from "@/lang/language.ts";
 </script>
@@ -15,13 +18,13 @@ import { rtl_languages } from "@/lang/language.ts";
       v-if="$route.params.subpage === 'corporate' || !$route.params.subpage"
       class="container"
     >
-      <h1>corporate</h1>
+      <Corporate />
     </div>
     <div v-else-if="$route.params.subpage === 'legal'" class="container">
-      <h1>contact</h1>
+      <Legal />
     </div>
     <div v-else-if="$route.params.subpage === 'faq'" class="container">
-      <h1>faq</h1>
+      <FAQ />
     </div>
   </div>
 </template>
