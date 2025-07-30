@@ -1,7 +1,7 @@
 export const langDe = {
   navbar: {
     home: "Startseite",
-    carbon: "CO2 (DE)",
+    carbon: "CO2 (EN)",
     about: "Über uns",
   },
   sidebar: {

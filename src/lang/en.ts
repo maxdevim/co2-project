@@ -1,11 +1,11 @@
 export const langEn = {
   navbar: {
     home: "Home",
-    carbon: "CO2 (DE)",
+    carbon: "CO2 (EN)",
     about: "About Us",
   },
   sidebar: {
-    corporate: "Companies",
+    corporate: "Company",
     legal: "Legal Notice (DE)",
     faq: "FAQ",
   },
