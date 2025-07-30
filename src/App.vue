@@ -7,11 +7,11 @@ import { rtl_languages } from "./lang/language.ts";
 
 <template>
   <header><Navbar /></header>
-  <content>
+  <main>
     <div :class="{ 'text-end': rtl_languages.includes($i18n.locale) }">
       <RouterView />
     </div>
-  </content>
+  </main>
   <footer><Footer /></footer>
 </template>
 

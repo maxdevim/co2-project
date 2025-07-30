@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark l-100">
+  <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark">
     <hr />
     <ul class="nav nav-pills flex-column mb-auto gap-2">
       <li class="nav-item">

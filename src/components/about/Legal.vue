@@ -37,16 +37,16 @@
 
         <p>
           <strong>Umsatzsteuer-ID:</strong><br />
-          Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br />
+          Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br />
           DE123456789<br />
           (nur angeben, wenn vorhanden und erforderlich)
         </p>
 
         <p>
-          <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong
+          <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong
           ><br />
           Max Mustermann<br />
-          Ecolis e. V.<br />
+          Ecolis e. V.<br />
           Musterstraße 12<br />
           12345 Musterstadt
         </p>
@@ -218,7 +218,7 @@
 <style scoped>
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 16px;
   padding: 8px;
   box-sizing: border-box;
