@@ -9,7 +9,7 @@ function onLanguageChange(event: Event) {
 </script>
 
 <template>
-  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg w-100">
     <div class="container-fluid">
       <RouterLink class="navbar-brand" to="/">
         <img src="@/assets/plant.png" alt="Bootstrap" width="30" height="24" />
